@@ -1,6 +1,6 @@
 import setuptools
 
-VERSION = "1.0.0" 
+VERSION = "1.0.1" 
 
 NAME = "py-plugin-feeds"
 
@@ -11,7 +11,7 @@ def parse_requirements(filename):
 setuptools.setup(
     name=NAME,
     version=VERSION,
-    description="Streamlit Connection for Google Sheets.",
+    description="Plugin Decentralized Oracle Price Feed Python Package",
     url="https://github.com/GoPlugin/py-plugin-feeds",
     project_urls={
         "Source Code": "https://github.com/GoPlugin/py-plugin-feeds",
