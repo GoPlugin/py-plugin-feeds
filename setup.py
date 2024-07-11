@@ -1,6 +1,7 @@
 import setuptools
+import glob
 
-VERSION = "1.0.4" 
+VERSION = "1.0.5" 
 
 NAME = "py-plugin-feeds"
 
@@ -33,6 +34,7 @@ setuptools.setup(
     package_data={
         'py_plugin_feeds': ['abi/token/token.json', 'abi/*.json', 'mapping/*'],
     },
+    data_files=glob.glob('py_plugin_feeds/abi/**'),
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
 )
