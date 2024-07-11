@@ -29,7 +29,7 @@ def get_contract(web3,fname,bytecode=None):
     return Contract
 
 
-def get_token_price(web3,pair,category,fname="token/token.json"):
+def get_token_price(web3,pair,category,fname="token.json"):
     logging.info("***fetching token price****")
     address = token_mapping(pair)
     match web3.eth.chain_id:

@@ -32,7 +32,7 @@ setuptools.setup(
     install_requires=parse_requirements("requirements.txt"),
     packages=setuptools.find_packages(include=["py_plugin_feeds", "py_plugin_feeds.*"]),
     package_data={
-        'py_plugin_feeds': ['abi/token/token.json', 'abi/*.json', 'mapping/*'],
+        'py_plugin_feeds': ['abi/token.json', 'abi/*.json', 'mapping/*'],
     },
     data_files=glob.glob('abi/**'),
     long_description=open("README.md").read(),
