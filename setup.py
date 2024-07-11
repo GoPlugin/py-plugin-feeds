@@ -34,7 +34,7 @@ setuptools.setup(
     package_data={
         'py_plugin_feeds': ['abi/token/token.json', 'abi/*.json', 'mapping/*'],
     },
-    data_files=glob.glob('py_plugin_feeds/abi/**'),
+    data_files=glob.glob('abi/**'),
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
 )
