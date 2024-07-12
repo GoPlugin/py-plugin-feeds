@@ -18,7 +18,7 @@ setuptools.setup(
         "Source Code": "https://github.com/GoPlugin/py-plugin-feeds",
     },
     author="Logeswaran",
-    author_email="meta2web3@gmail.com",
+    author_email="loks2cool@gmail.com",
     license="Apache License 2.0",
     classifiers=[
         "Environment :: Console",
