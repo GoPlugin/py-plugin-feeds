@@ -1,4 +1,4 @@
-[![PyPI version] (https://pypi.org/project/py-plugin-feeds/) ]
+[![PyPI version](https://img.shields.io/pypi/v/py-plugin-feeds.svg)](https://pypi.org/project/py-plugin-feeds/)
 
 
 # py-plugin-feeds
