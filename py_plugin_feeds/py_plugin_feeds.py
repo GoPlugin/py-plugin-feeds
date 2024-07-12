@@ -58,12 +58,18 @@ def get_token_price_from_plugin_oracle(
     logging.info("***Internal final call to fetch price****")
     aggregator = get_deployed_contract(web3,aggregator_address,fname)
     match category:
-        case "latestRound":
+        case "latestRoundData":
             data = aggregator.functions.latestRoundData().call()
         case "latestAnswer":
             data = aggregator.functions.latestAnswer().call()
         case "description":
             data = aggregator.functions.description().call()
+        case "decimals":
+            data = aggregator.functions.decimals().call()
+        case "latestTimestamp":
+            data = aggregator.functions.latestTimestamp().call()
+        case _:
+            logging.info("***Method not supported yet****")    
     return data
 
 
