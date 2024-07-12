@@ -1,4 +1,11 @@
-# Plugin Feeds : Python Package
+[![PyPI version] (https://pypi.org/project/py-plugin-feeds/) ]
+
+
+# py-plugin-feeds
+
+py-plugin-feeds (`py_plugin_feeds`) Python package provides high level modules for smart contracts, with prepackaged ABI files for data feeds and the aggregator address,The package aims for robustness, high quality of the code and documentation.
+
+This package helps users/developers/customers to extract the price from Plugin a decentralized Oracle in few lines of python program. User can navigate their preferred index pair to retrieve and provide the method to access the value.
 
 ## Install
 
