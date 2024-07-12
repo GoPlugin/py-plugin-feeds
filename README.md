@@ -106,3 +106,20 @@ if __name__ == "__main__":
   lastRound
   latestTimestamp
   ```
+
+## Explore our data feeds platform 
+
+- explorer now - https://feeds.goplugin.co 
+- explore the data source details(Single / aggregator) and choose the appropriate index pair
+- data you fetch doesn't requires gas fee, as it is just GET Method
+- frequency of this data (last update value)
+
+## Enterprise level access
+
+- Submit your request in feeds platform
+
+
+## What's Next
+
+- Method to invoke oracle to fetch new data will be added
+- VRF functions 
