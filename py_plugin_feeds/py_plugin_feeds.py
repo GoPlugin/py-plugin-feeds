@@ -69,7 +69,8 @@ def get_token_price_from_plugin_oracle(
         case "latestTimestamp":
             data = aggregator.functions.latestTimestamp().call()
         case _:
-            logging.info("***Method not supported yet****")    
+            logging.warning("***Unsupported methd****")
+            raise NotImplementedError(f"Unsupported Method: {category}!!s")
     return data
 
 

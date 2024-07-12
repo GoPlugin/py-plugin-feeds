@@ -8,6 +8,7 @@ def parse_requirements(filename):
     with open(filename, 'r') as f:
         lines = f.readlines()
     return [line.strip() for line in lines if line.strip() and not line.startswith('#')]
+
 setuptools.setup(
     name=NAME,
     version=VERSION,
