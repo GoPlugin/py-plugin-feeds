@@ -130,3 +130,4 @@ if __name__ == "__main__":
 
 - Method to invoke oracle to fetch new data will be added
 - VRF functions 
+- To raise the right exceptions when data is not available for the index pair
