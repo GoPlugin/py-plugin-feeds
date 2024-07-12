@@ -21,7 +21,7 @@ from web3 import HTTPProvider, Web3
 from py_plugin_feeds import get_token_price
 
 def main():
-    json_rpc_url = "https:/erpc.xinfin.network"
+    json_rpc_url = "https://erpc.xinfin.network"
     pair = "XDC/USDT"
     method = "latestAnswer"
     web3 = Web3(HTTPProvider(json_rpc_url))
