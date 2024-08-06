@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
 ```
 
-## Example to pull the price CIFI/USDT 
+## Example to pull the price BTC/USDT 
 
 ```python
 
@@ -83,7 +83,6 @@ if __name__ == "__main__":
 
 ```
 {
-    "CIFI/USDT" : "0xf699C9049B3fF0983bBDCFc115f7E86687a17Ee4",
     "BTC/USDT" : "0x49CD12b8daa769b2fEc36C669b10a0f7bfd352E8",
     "ETH/USDT" : "0xD9B592729c7b7Cbed0A817d4bF2896aB83b01b9E",
     "PRNT/USD" : "0x3Ea54753e3Eb29ce0013C2eb9F57c636037c4f8f",
