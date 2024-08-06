@@ -3,7 +3,7 @@ from py_plugin_feeds import get_token_price
 
 def main():
     json_rpc_url = "https://rpc-amoy.polygon.technology"
-    pair = "CIFI/USDT"
+    pair = "BTC/USDT"
     method="latestAnswer"
     web3 = Web3(HTTPProvider(json_rpc_url))
     web3.middleware_onion.clear()
